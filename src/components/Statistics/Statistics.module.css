@@ -8,7 +8,6 @@
 }
 .statList {
   display: flex;
-
   justify-content: center;
   text-align: center;
   background-color: rgb(64, 198, 117);

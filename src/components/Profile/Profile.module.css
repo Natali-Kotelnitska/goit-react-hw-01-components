@@ -17,7 +17,7 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: 1px solid red;
+  border: 1px solid #85929e;
   padding: 5px;
   margin-bottom: 30px;
 }
@@ -37,7 +37,7 @@
 }
 .tag,
 .location {
-  color: gray;
+  color: #85929e;
   font-size: 25px;
 }
 .name,
@@ -49,7 +49,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: rgb(241, 246, 243);
+  background-color: #f4f6f7;
 }
 
 .item {
@@ -57,14 +57,14 @@
   flex-direction: column;
   padding: 25px;
   width: 70px;
-  border-top: 1px solid rgb(193, 191, 191);
+  border-top: 1px solid #d0d3d4;
   font-size: 18px;
   font-weight: 500;
 }
 .item:not(:last-child) {
-  border-right: 1px solid rgb(193, 191, 191);
+  border-right: 1px solid #d0d3d4;
 }
 .label {
-  color: gray;
+  color: #85929e;
   margin-bottom: 10px;
 }
