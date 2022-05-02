@@ -1,21 +1,23 @@
 import PropTypes from 'prop-types';
+import s from './TransactionHistory.module.css';
+
 export default function TransactionHistory({ items }) {
   return (
-    <table className="transaction-history">
+    <table className={s.transactionHistory}>
       <thead>
-        <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
+        <tr className={s.row}>
+          <th className={s.tableHeader}>Type</th>
+          <th className={s.tableHeader}>Amount</th>
+          <th className={s.tableHeader}>Currency</th>
         </tr>
       </thead>
 
       <tbody>
         {items.map(({ id, type, amount, currency }) => (
           <tr key={id}>
-            <td>{type}</td>
-            <td>{amount}</td>
-            <td>{currency}</td>
+            <td className={s.tableCell}>{type}</td>
+            <td className={s.tableCell}>{amount}</td>
+            <td className={s.tableCell}>{currency}</td>
           </tr>
         ))}
       </tbody>

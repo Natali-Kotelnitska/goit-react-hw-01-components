@@ -21,14 +21,13 @@ export const App = () => {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        fontSize: 40,
+        fontSize: 30,
         color: '#010101',
         paddingTop: '80px',
         paddingBottom: '100px',
       }}
     >
       {/* React homework template */}
-      {/* <Profile props={user} /> */}
       <Profile
         username={user.username}
         tag={user.tag}

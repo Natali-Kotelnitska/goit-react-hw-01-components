@@ -14,82 +14,18 @@ code {
     monospace;
 }
 
-/* тимчасово */
 img {
   display: block;
-}
-.profile {
-  width: auto;
+  max-width: 100%;
   height: auto;
-}
-.avatar {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 1px solid red;
-  padding: 5px;
 }
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-/* Statistics */
-.statistics {
-  text-align: center;
-}
-.stat-list {
-  display: flex;
-  /* text-align: center; */
-}
-.statistics .item {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  text-align: center;
-}
-.statistics .label {
-  margin-bottom: 5px;
-}
-
-/* Friends */
-.friend-list {
-  /* display: flex; */
-  /* height: 80vh; */
-}
-.friend-list .status {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  border: 1px solid grey;
-}
-
-/* Transactions */
-.table,
-th,
-td {
-  border: 1px solid darkgray;
-}
-.transaction-history {
-  table-layout: fixed;
-  /* position: relative; */
-  bottom: 10px;
-  left: 10px;
-  bottom: 0%;
-  width: 60%;
-  border-collapse: collapse;
-  /* border: 3px solid darkgray; */
-}
-td,
-tr {
-  text-align: center;
-  height: 80px;
-}
-tr:nth-child(even) {
-  background-color: rgb(159, 202, 248);
-}
-th {
-  background-color: rgb(73, 124, 252);
-  color: white;
+p {
+  margin: 0;
 }

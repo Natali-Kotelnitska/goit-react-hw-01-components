@@ -1,0 +1,30 @@
+.transactionHistory {
+  table-layout: fixed;
+  bottom: 10px;
+  left: 10px;
+  bottom: 0%;
+  width: 60%;
+  border-collapse: collapse;
+  color: gray;
+  font-size: 20px;
+}
+
+.tableHeader,
+.tableCell {
+  border: 1px solid rgb(225, 224, 224);
+}
+
+.tableHeader {
+  background-color: rgb(66, 213, 232);
+  color: white;
+}
+
+.tableCell,
+.transactionHistory tr {
+  text-align: center;
+  height: 80px;
+}
+
+.transactionHistory tr:nth-child(even) {
+  background-color: rgb(238, 243, 244);
+}
